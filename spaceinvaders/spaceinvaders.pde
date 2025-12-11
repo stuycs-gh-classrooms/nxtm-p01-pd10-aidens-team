@@ -6,7 +6,7 @@ void setup() {
   size(600, 600);
   player = new Player(300, 550);
 
-  enemies = new Enemy[5];
+  enemies = new Enemy[13];
   for (int i = 0; i < enemies.length; i++) {
     enemies[i] = new Enemy(100 + i * 80, 100);
   }
